@@ -3,7 +3,7 @@ programa {
     inteiro vendas
     caracter parar = 'N'
 
-    escreva("Informe a quantia de vendas realizadas: ")
+    escreva("Informe a quantidade de vendas realizadas: ")
     leia(vendas)
 
       enquanto(parar != 'S'){
@@ -12,7 +12,7 @@ programa {
       leia(vendas)
       }
 
-      escreva("O número de vendas foi: ", vendas)
+      escreva("A quantia de vendas foi: ", vendas)
 
     
 
@@ -21,3 +21,15 @@ programa {
 
   }
 }
+
+/* $$$ Portugol Studio $$$ 
+ * 
+ * Esta seção do arquivo guarda informações do Portugol Studio.
+ * Você pode apagá-la se estiver utilizando outro editor.
+ * 
+ * @POSICAO-CURSOR = 358; 
+ * @PONTOS-DE-PARADA = ;
+ * @SIMBOLOS-INSPECIONADOS = ;
+ * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
+ * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
+ */
